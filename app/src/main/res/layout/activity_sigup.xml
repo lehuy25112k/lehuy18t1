@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sigup"
+    android:orientation="vertical">
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:padding="10dp"
+        android:textColor="#2386DD"
+        android:gravity="center"/>
+    
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="430dp"
+       android:orientation="vertical"
+       android:padding="10dp"
+       android:layout_marginBottom="15dp">
+       
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:hint="Email"
+           android:inputType="text"
+           android:textColor="#2386DD"
+           android:textSize="15dp"
+           android:textStyle="normal"
+           android:layout_marginBottom="15dp"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:hint="user name"
+           android:maxLines="30"
+           android:inputType="text"
+           android:textColor="#2386DD"
+           android:layout_marginBottom="15dp"
+           android:textSize="15dp"
+           android:textStyle="normal"/>
+
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:hint="password"
+           android:maxLines="15"
+           android:inputType="textPassword"
+           android:layout_marginBottom="15dp"
+           android:textColor="#2386DD"
+           android:textSize="15dp"
+           android:textStyle="normal"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:hint="Enter the password"
+           android:maxLines="15"
+           android:textColor="#2386DD"
+           android:inputType="textPassword"
+           android:layout_marginBottom="15dp"
+           android:textSize="15dp"
+           android:textStyle="normal"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           android:hint="Địa chỉ"
+           android:textColor="#2386DD"
+           android:layout_marginBottom="5dp"
+           android:textSize="15dp"
+           android:inputType="text"
+           android:textStyle="normal"/>
+
+       <RadioButton
+           android:layout_width="360dp"
+           android:layout_height="40dp"
+           android:text="Tôi đồng ý" />
+       
+   </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt3"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Đăng Kí"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="70dp"
+            android:background="@drawable/botronbutton1"/>
+
+    </LinearLayout>
+
+</LinearLayout>

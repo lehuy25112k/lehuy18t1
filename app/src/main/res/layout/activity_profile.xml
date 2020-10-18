@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#2386DD"
+        android:orientation="vertical"
+        android:layout_marginBottom="-70dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="-30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:layout_marginLeft="150dp"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="-50dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="300dp"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="120dp"
+            app:cardElevation="0dp"
+            android:layout_margin="10dp"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center">
+
+            <ImageView
+
+                tools:ignore="ContentDescription"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/dolehuy"
+                android:scaleType="centerCrop" />
+        </androidx.cardview.widget.CardView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ĐỖ LÊ HUY"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You Never Walk Alone"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/posts"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:background="@drawable/botron1"
+            android:text="Posts"
+            android:textColor="@android:color/black"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:paddingRight="50dp"
+            android:layout_marginBottom="-50dp"/>
+
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:background="@drawable/botronbutton1"
+            android:text="Photos"
+            android:textColor="@android:color/black"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="170dp"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/dolehuy"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/dolehuy"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:src="@drawable/dolehuy"
+            android:layout_marginBottom="-200dp"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="216dp"
+            android:layout_marginLeft="100dp">
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Đỗ Lê Huy"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt1"
+                android:layout_marginBottom="7dp"
+                android:text="Năm 2020 có 4 mùa mùa dịch, mùa dịch,  mùa bão, mùa lụt"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txt3"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt2"
+                android:text="Lê Huy"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt3"
+                android:text="Năm 2020 có 4 mùa mùa dịch, mùa dịch,  mùa bão, mùa lụt"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txt5"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt4"
+                android:text="LeeWy"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt5"
+                android:text="Năm 2020 có 4 mùa mùa dịch, mùa dịch,  mùa bão, mùa lụt"
+                android:textSize="15dp" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/bt2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Back"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="100dp"
+            android:background="@drawable/botronbutton1"/>
+    </LinearLayout>
+
+</LinearLayout>
